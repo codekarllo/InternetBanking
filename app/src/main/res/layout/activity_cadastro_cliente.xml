@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cadastro_cliente"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.internetbanking.carlos.internetbanking.CadastroClienteActivity"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true" >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Dados Pessoais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDadosPessoais"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="CPF"
+            android:id="@+id/edtCPF"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Nome Completo"
+            android:ems="10"
+            android:id="@+id/edtNomeCliente"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/edtEmailCliente"
+          />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/edtEmailCliente"
+            android:hint="E-mail"
+                    android:layout_marginBottom="32dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp"/>
+
+        <Button
+            android:text="Continuar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCadastrar"
+            android:layout_gravity="center_horizontal"
+
+            android:background="@android:drawable/btn_default_small"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+        <TextView
+            android:text="@string/copyright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:gravity="bottom|center_horizontal" />
+    </LinearLayout>
+
+
+</RelativeLayout>

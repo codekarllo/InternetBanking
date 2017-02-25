@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">InternetBanking</string>
+    <string name="titulo">Internet Banking</string>
+    <string name="abrir_conta">Abrir Conta</string>
+    <string name="dados_pessoais">Dados Pessoais</string>
+    <string name="transferencia_sucesso">Transferência realizada com sucesso!</string>
+    <string name="aviso">Aviso</string>
+    <string name="campos_obrigatorios">Preencha os campos obrigatórios!</string>
+    <string name="conta_valida">Insira uma conta válida!</string>
+    <string name="conta_inexistente">Conta inexistente!</string>
+    <string name="titulo_transferencia_activity">Transferência entre contas</string>
+    <string name="saldo_insuficiente">Saldo insuficiente!</string>
+    <string name="copyright">Criado por Carlos R. N. Junior</string>
+</resources>
